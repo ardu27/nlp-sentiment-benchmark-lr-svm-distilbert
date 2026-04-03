@@ -1,6 +1,6 @@
-# sentiment-analysis-ml-comparison
+# nlp-sentiment-benchmark-lr-svm-distilbert
 
-I built this project as a 2nd year Computer Science student to explore how different Machine Learning models handle the same natural language processing (NLP) task. The goal is to classify text reviews as either **Positive** or **Negative** and compare how "traditional" mathematical models perform against a modern "deep learning" Transformer model.
+I built this to explore how different Machine Learning models handle the same natural language processing (NLP) task. The goal is to classify text reviews as either **Positive** or **Negative** and compare how "traditional" mathematical models perform against a modern "deep learning" Transformer model.
 
 ## What I Learned
 The most important thing I learned from this project is that **the newest and most complex model isn't always the winner**. I started this project thinking that DistilBERT (a powerful neural network) would easily beat everything else, but I discovered that for smaller datasets, a well-tuned classical model like SVM can actually be more accurate and much faster. I also learned how crucial "text cleaning" (removing noise, fixing negations) is for traditional models, whereas deep learning models prefer the raw, messy text.

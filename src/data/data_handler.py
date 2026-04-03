@@ -16,7 +16,7 @@ class DataHandler:
         if 'text' not in df.columns or 'stars' not in df.columns:
             raise ValueError("CSV file missing required columns: 'text' and 'stars'")
 
-        # Normalizare (0 și 1) pentru LogisticRegression / SVC / Transformer
+        # Normalizare (0 si 1) pentru LogisticRegression / SVC / Transformer
         df['Sentiment'] = df['stars'].apply(lambda x: 1 if float(x) > 3 else 0)
 
         X = df['text']
