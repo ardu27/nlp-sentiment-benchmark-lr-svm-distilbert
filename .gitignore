@@ -1,5 +1,5 @@
 # Environments
-venv/
+/venv/
 .env
 
 # Python
@@ -9,16 +9,16 @@ __pycache__/
 *.pyd
 
 # IDEs
-.idea/
-.vscode/
+/.idea/
+/.vscode/
 
 # Project Specific
-models/
-models/lr/
-models/svm/
-models/transformer/
+/models/
+/models/lr/
+/models/svm/
+/models/transformer/
 *.pkl
 cm_*.png
 confusion_matrix.png
 experiment_tracking.json
-data/review.csv
+/data/review.csv
